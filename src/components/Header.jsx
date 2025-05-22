@@ -56,7 +56,7 @@ const Header = () => {
 
 
       {/* 2. CENTER SECTION (Desktop Navigation - Hidden on small screens, visible on medium and up) */}
-      <div className="hidden md:flex text-xl text-white">
+      <div className="hidden md:flex text-xl text-white border-2 border-blue-200 rounded-full px-3">
         <a href="/" className="p-2 m-2 active:text-blue-500">Home</a>
         <a href="/about" className="p-2 m-2">About</a>
         <a href="/projects" className="p-2 m-2">Projects</a>
