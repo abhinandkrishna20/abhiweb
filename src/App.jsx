@@ -1,14 +1,14 @@
 
-import './App.css'
+
 import Header from './components/Header'
 
 function App() {
 
 
   return (
-    <div className='bg-black-100  min-h-screen w-full  scroll-smooth'>
-     
-  <Header />
+    <div className='bg-white dark:bg-gray-800 w-full h-full  items-center justify-center'>
+     <Header />
+  
     </div>
   )
 }
