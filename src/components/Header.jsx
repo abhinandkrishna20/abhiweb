@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import logo from "./ak.png"; // Ensure this path is correct
 
 // If you have Heroicons installed, you can use them:
@@ -57,11 +58,11 @@ const Header = () => {
 
       {/* 2. CENTER SECTION (Desktop Navigation - Hidden on small screens, visible on medium and up) */}
       <div className="hidden md:flex text-xl text-white border-2 border-blue-200 rounded-full px-3">
-        <a href="/" className="p-2 m-2 active:text-blue-500">Home</a>
-        <a href="/about" className="p-2 m-2">About</a>
-        <a href="/projects" className="p-2 m-2">Projects</a>
-        <a href="/blog" className="p-2 m-2">Blog</a>
-        <a href="/contact" className="p-2 m-2">Contact</a>
+        <Link to="/" className="p-2 m-2 active:text-blue-500">Home</Link>
+        <Link to="/about" className="p-2 m-2">About</Link>
+        <Link to="/projects" className="p-2 m-2">Projects</Link>
+        <Link to="/blog" className="p-2 m-2">Blog</Link>
+        <Link to="/contact" className="p-2 m-2">Contact</Link>
       </div>
 
       {/* 3. RIGHT SECTION (Mobile Logo + Search Box on Mobile, just Search Box on Desktop) */}
@@ -89,11 +90,11 @@ const Header = () => {
           ${isMobileNavOpen ? "translate-x-0" : "-translate-x-full"} md:hidden`}
       >
         <div className="p-4 pt-20 flex flex-col">
-          <a href="/" className="p-3 text-white hover:bg-gray-700 block" onClick={toggleMobileNav}>Home</a>
-          <a href="/about" className="p-3 text-white hover:bg-gray-700 block" onClick={toggleMobileNav}>About</a>
-          <a href="/projects" className="p-3 text-white hover:bg-gray-700 block" onClick={toggleMobileNav}>Projects</a>
-          <a href="/blog" className="p-3 text-white hover:bg-gray-700 block" onClick={toggleMobileNav}>Blog</a>
-          <a href="/contact" className="p-3 text-white hover:bg-gray-700 block" onClick={toggleMobileNav}>Contact</a>
+          <Link to="/" className="p-3 text-white hover:bg-gray-700 block" onClick={toggleMobileNav}>Home</Link>
+          <Link to="/about" className="p-3 text-white hover:bg-gray-700 block" onClick={toggleMobileNav}>About</Link>
+          <Link to="/projects" className="p-3 text-white hover:bg-gray-700 block" onClick={toggleMobileNav}>Projects</Link>
+          <Link to="/blog" className="p-3 text-white hover:bg-gray-700 block" onClick={toggleMobileNav}>Blog</Link>
+          <Link to="/contact" className="p-3 text-white hover:bg-gray-700 block" onClick={toggleMobileNav}>Contact</Link>
         </div>
       </div>
     </div>
