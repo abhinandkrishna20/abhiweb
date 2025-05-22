@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
   return (
     <div className='border-t-2 border-blue-50 w-full p-3  text-blue-50 '>
-      <div className='items-baseline-last justify-center'>
+      <div className='flex items-baseline-last justify-center'>
         All rights reserver @ Abhinand Krishna
       </div>
       <div className='flex items-center justify-center-safe'>
