@@ -1,7 +1,7 @@
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Footer from './components/Footer'
-import Header from './components/Header'
+import Header from './components/Header2'
 import MainLayout from './Layout/MainLayout'
 import Hero from './components/Hero'
 import Projects from './components/Projects'
