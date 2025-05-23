@@ -1,8 +1,6 @@
-Here's a complete `README.md` file for your portfolio website, covering setup, features (including the dark/light toggle, dropdown menus, etc.), and deployment:
 
----
 
-```markdown
+
 # 🌐 Abhinand's Portfolio Website
 
 Welcome to my personal portfolio website built using **React.js**! This site showcases my work, projects, skills, and blog posts in a clean, modern, and responsive design.
@@ -29,21 +27,7 @@ Welcome to my personal portfolio website built using **React.js**! This site sho
 
 ---
 
-## 📁 Folder Structure
 
-```
-
-abhiweb/
-├── public/
-├── src/
-│   ├── assets/        # Images and static assets
-│   ├── components/    # Reusable React components (Header, Footer, etc.)
-│   ├── pages/         # Page components (Home, About, Blog, etc.)
-│   ├── App.jsx
-│   └── index.js
-└── README.md
-
-````
 
 ---
 
