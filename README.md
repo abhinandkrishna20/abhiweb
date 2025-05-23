@@ -89,9 +89,4 @@ This project is open-source and available under the [MIT License](LICENSE).
 
 > Built with ❤️ using React and Tailwind CSS
 
-```
 
----
-
-Let me know if you'd like to include sections like **Contributing**, **Changelog**, or deployment instructions for a specific platform like Netlify or GitHub Pages.
-```
